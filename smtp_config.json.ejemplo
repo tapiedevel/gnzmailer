@@ -1,0 +1,21 @@
+{
+    "host": "smtp.ejemplo.com",
+    "port": 587,
+    "username": "ejemplo@ejemplo.com",
+    "password": "password",
+    "encryption": "tls",
+    "from_email": "ejemplo@ejemplo.com",
+    "from_name": "ejemplo",
+    "to": "correo@destino.com",
+    "subject": "Prueba de conexión SMTP desde GnzMailer",
+    "body": "<h1>Éxito</h1><p>Si recibes este correo, la conexión SMTP funciona correctamente.</p>",
+    "cc": [
+				"uno@gmail.com",
+        "dos@outlook.com"
+		],
+    "bcc": [
+				"uno@gmail.com",
+        "dos@outlook.com"
+				],
+    "attachments": []
+}
